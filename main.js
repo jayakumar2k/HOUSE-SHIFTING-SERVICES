@@ -1,7 +1,7 @@
 //MY FIRST INTERACTIVE GAME
 let getReady=confirm("Shall We Play rock,paper or scissors? ");
 if(getReady){
-    //play
+    //plays
     let player=prompt("Please Enter rock,paper or scissors?");
     if(player){
        let playerNew= player.trim().toLowerCase();
